@@ -1,0 +1,27 @@
+{
+  "devDependencies": {
+    "@chainlink/contracts": "^0.5.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers",
+    "@nomiclabs/hardhat-etherscan": "^3.1.3",
+    "@nomiclabs/hardhat-waffle": "^2.0.3",
+    "chai": "^4.3.7",
+    "dotenv": "^16.0.3",
+    "ethereum-waffle": "^3.4.4",
+    "ethers": "^5.7.2",
+    "hardhat": "^2.12.4",
+    "hardhat-contract-sizer": "^2.6.1",
+    "hardhat-deploy": "^0.11.22",
+    "solidity-coverage": "^0.8.2"
+  },
+  "dependencies": {
+    "hardhat-gas-reporter": "^1.0.9"
+  },
+  "scripts": {
+    "c": "yarn hardhat compile", 
+    "d": "yarn hardhat deploy",
+    "n": "yarn hardhat node",
+    "t": "yarn hardhat test",
+    "dl": "yarn hardhat deploy --network goerli",
+    "tl": "yarn hardhat test --network goerli"
+  }
+}
