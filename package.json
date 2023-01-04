@@ -17,7 +17,7 @@
     "hardhat-gas-reporter": "^1.0.9"
   },
   "scripts": {
-    "c": "yarn hardhat compile", 
+    "c": "yarn hardhat compile",
     "d": "yarn hardhat deploy",
     "n": "yarn hardhat node",
     "t": "yarn hardhat test",
